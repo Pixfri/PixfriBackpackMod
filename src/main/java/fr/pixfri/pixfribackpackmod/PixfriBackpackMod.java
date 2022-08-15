@@ -40,8 +40,6 @@ public class PixfriBackpackMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(ModEventBusEvents::commonSetup);
-        modEventBus.addListener(ModEventBusClientEvents::onClientSetup);
-        modEventBus.addListener(ModEventBusServerEvents::onServerStarting);
 
         ModItems.register(modEventBus);
 

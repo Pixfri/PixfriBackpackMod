@@ -10,7 +10,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registry.ITEM_REGISTRY,
             PixfriBackpackMod.MODID);
 
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

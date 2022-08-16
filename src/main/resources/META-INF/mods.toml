@@ -64,3 +64,8 @@ This mod adds backpacks to minecraft
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.pixfribackpackmod]]
+modId="curios"
+mandatory=true
+versionRange="[1.19.2-5.1.1.0,)"
